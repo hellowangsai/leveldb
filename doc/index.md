@@ -7,6 +7,10 @@ The leveldb library provides a persistent key value store. Keys and values are
 arbitrary byte arrays.  The keys are ordered within the key value store
 according to a user-specified comparator function.
 
+## 相关设计文档
+
+- Linux 用户态文件系统设计（LevelDB, Direct I/O, append-only）：`doc/linux_userspace_fs_design.md`
+
 ## Opening A Database
 
 A leveldb database has a name which corresponds to a file system directory. All
